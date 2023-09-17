@@ -1,0 +1,42 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+header {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 70px;
+  color: goldenrod;
+  font-weight: bolder;
+  text-align: center;
+}
+#spin-container {
+  text-align: center;
+}
+
+body {
+  background-color: #0389ff;
+  color: goldenrod;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border: 2px solid goldenrod;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 1em;
+  text-align: center;
+}
+
+th,
+tr {
+  height: 100px;
+  width: 20%;
+  border: 1.5px solid goldenrod;
+}

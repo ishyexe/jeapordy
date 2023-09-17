@@ -8,13 +8,33 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Jeopardy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Copse&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&family=Source+Code+Pro&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="jeopardy.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
   </head>
   <body>
+    <header>
+      <h1>Jeopardy</h1>
+      <button id="start">let's go!</button>
+    </header>
+
+    <div id="spin-container">
+      <i class="fa fa-spin fa-spinner"></i>
+    </div>
+
+    <table id="jeopardy">
+      <thead></thead>
+      <tbody></tbody>
+    </table>
+
     <script src="https://unpkg.com/jquery"></script>
     <script src="https://unpkg.com/axios/dist/axios.js"></script>
     <script src="https://unpkg.com/lodash"></script>
