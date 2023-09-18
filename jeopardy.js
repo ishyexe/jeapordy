@@ -32,7 +32,7 @@ async function getCategoryIds() {
         return [result.id, result.title, result.clues_count];
       })
       .filter((result) => {
-        return result[2] >= 5; // ? should i have put something else
+        return result[2] >= 5; // filter the result so that it returns categories with a count of 5 or more clues
       });
     const categoriesId = ids.map((index) => categories[index]);
     // return categoriesId;
